@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix=">",intents=intents)
 bot.remove_command("help")
 with open('config.json') as f:
     data = json.load(f)
-    token = data["TOKEN"]
+    token = data["MTEzODY5MTE4NDQxNjU0Mjc4MA.Gl0A1F.BFno2wOP23nvTvJbkgwC_q6an34gfSvdtu4ArI"]
 @bot.event
 async def on_ready():
     print(f'''
